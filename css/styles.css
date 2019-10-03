@@ -12,5 +12,8 @@ h1 {
   height: 100vh;
   background-position: center;
   background-attachment: fixed;
-  /* opacity: 0.5; */
+}
+.logo {
+float: left;
+padding-top: 0%;
 }
