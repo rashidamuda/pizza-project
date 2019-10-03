@@ -3,5 +3,13 @@ h1 {
     font-weight: bold;
     font-family: serif;
     font-size: 40px;
-    color: black;
+    color:black;
+    text-decoration: underline;
+}
+.jumbotron{
+    background-image: url("../images/pizza-baked-chesse-spicy-7t-1920x1080.jpg");
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
