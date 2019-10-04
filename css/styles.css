@@ -28,18 +28,32 @@ h2 {
   padding-top: 3%;
 }
 h3 {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 23px;
 }
 
-#SizeOfPizza{
-    width:70%;
+#SizeOfPizza {
+  width: 70%;
 }
 .row {
-    text-align: center;
-    padding-top: 1%;
+  text-align: center;
+  padding-top: 1%;
 }
 #TypeOfCrust {
-    width: 70%;
+  width: 70%;
+}
+h5 {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+h4 {
+  font-size: 27px;
+  color: white;
+  padding-top: 7%;
+}
+.menu {
+    color: white;
+    text-decoration: underline;
 }

@@ -20,8 +20,24 @@
       </div>
       <p class="p1">
         Welcome to our pizza odering site which allows you to choose from a
-        variety of pizzas from our various types of toppings
+        variety of pizzas from our various types of toppings with the option of delivery.
       </p>
+      <h4>Pizza Menu;</h4>
+      <div class="row">
+          <div class="col-md-4">
+             <h5>large</h5>
+             <p class="menu">price 1000ksh</p>
+          </div>
+          <div class="col-md-4">
+              <h5>Medium</h5>
+              <p class="menu">price 700ksh</p>
+          </div>
+          <div class="col-md-4">
+              <h5>small</h5>
+              <p class="menu">price 400ksh</p>
+          </div>
+          <div class="topping-price"></div>
+      </div>
     </div>
     <h2>Please Place Your Order</h2>
     <form>
@@ -36,26 +52,28 @@
         </div>
         <div class="col-md-4">
           <h3>Type Of Topping</h3>
-          <label class="container"
-            >Pepperoni
-            <input type="checkbox" checked="checked" />
-            <span class="checkmark"></span>
-          </label>
-          <label class="container"
-            >chicken
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
-          <label class="container"
-            >bacon
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
-          <label class="container"
-            >beef
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
+          <div id="toppings">
+            <label class="container"
+              >Pepperoni
+              <input type="checkbox" value="pepperoni" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"
+              >chicken
+              <input type="checkbox" value="chicken" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"
+              >bacon
+              <input type="checkbox"   value="bacon" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"
+              >beef
+              <input type="checkbox"value="beef" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
         </div>
         <div class="col-md-4">
           <h3>Type Of Crust</h3>
