@@ -2,18 +2,36 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-family: serif;
-  font-size: 40px;
+  font-size: 45px;
   color: white;
-  text-decoration: underline;
+  font-style: italic;
 }
 .img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/pizza-baked-chesse-spicy-7t-1920x1080.jpg");
-  height: 100vh;
+  height: 70vh;
   background-position: center;
   background-attachment: fixed;
 }
 .logo {
-float: left;
-padding-top: 0%;
+  float: left;
+  padding-top: 0%;
+}
+.p1 {
+  font-size: 25px;
+  color: white;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 3%;
+}
+h3 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+.size {
+
 }
