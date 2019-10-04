@@ -4,6 +4,13 @@ $("document").ready(function() {
     var crust = $("#TypeOfCrust")
       .find(":selected")
       .text();
-    alert(crust);
+
+    $("form").submit(function(event) {
+      event.preventDefault();
+      var size = $("#SizeOfPizza")
+        .find(":selected")
+        .text();
+      alert(size +" "+ crust);
+    });
   });
 });
