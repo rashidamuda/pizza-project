@@ -7,10 +7,14 @@ $("document").ready(function() {
     alert(size);
     var toppings = [];
     $("#toppings :checked").each(function() {
-        toppings.push($(this).val());
-        alert(toppings);
-      });
-    
+      toppings.push($(this).val());
+      alert(toppings);
+    });
+    var DeliveryOrder = [];
+    $("#delivery :checked").each(function() {
+      DeliveryOrder.push($(this).val());
+      alert(DeliveryOrder);
+    });
   });
 
   $("form").submit(function(event) {
@@ -19,13 +23,12 @@ $("document").ready(function() {
       .find(":selected")
       .text();
     alert(crust);
-  
   });
   $("form").submit(function(event) {
-      event.preventDefault();
-      var number = $("#NumberOfPizzas")
+    event.preventDefault();
+    var number = $("#NumberOfPizzas")
       .find(":selected")
       .text();
-      alert(number);
+    alert(number);
   });
 });
