@@ -13,7 +13,7 @@ $("document").ready(function() {
     var DeliveryOrder = [];
     $("#delivery :checked").each(function() {
       DeliveryOrder.push($(this).val());
-      alert(DeliveryOrder);
+      alert("would you like your pizza delivered? " + DeliveryOrder);
     });
   });
 
@@ -22,13 +22,13 @@ $("document").ready(function() {
     var crust = $("#TypeOfCrust")
       .find(":selected")
       .text();
-    alert(crust);
+    alert( "type of crust .." + crust);
   });
   $("form").submit(function(event) {
     event.preventDefault();
     var number = $("#NumberOfPizzas")
       .find(":selected")
       .text();
-    alert(number);
+    alert(" number of pizzas ordered .." + number);
   });
 });
