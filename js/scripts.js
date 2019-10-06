@@ -21,4 +21,11 @@ $("document").ready(function() {
     alert(crust);
   
   });
+  $("form").submit(function(event) {
+      event.preventDefault();
+      var number = $("#NumberOfPizzas")
+      .find(":selected")
+      .text();
+      alert(number);
+  });
 });
