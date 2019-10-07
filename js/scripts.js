@@ -22,7 +22,7 @@ $("document").ready(function() {
     var crust = $("#TypeOfCrust")
       .find(":selected")
       .text();
-    alert( "type of crust .. " + crust);
+    alert("type of crust .. " + crust);
   });
   $("form").submit(function(event) {
     event.preventDefault();
@@ -31,18 +31,18 @@ $("document").ready(function() {
       .text();
     alert(" number of pizzas ordered .. " + number);
   });
-  var totalPrice =[];
-  function Order (optionSize) {
-      this.optionSize = optionSize;
-      this.toppings = 150;
+  var totalPrice = [];
+  function Order(optionSize) {
+    this.optionSize = optionSize;
+    this.toppings = 150;
   }
-    order.prototype.pizzaCost = function() {
-        if (this.optionSize === "large") {
-            this.pizzaPrice = 1000;
-        }else if (this.optionSize === "medium") {
-            
-
-        }
+  order.prototype.pizzaCost = function() {
+    if (this.optionSize === "large") {
+      this.pizzaPrice = 1000;
+    } else if (this.optionSize === "medium") {
+      this.pizzaPrice = 700;
+    } else if (this.optionSize === "small") {
+        this.pizzaPrice = 400;
     }
- 
+  };
 });
